@@ -1,0 +1,12 @@
+{
+	"dt" : 0.00333333,
+	"total_time" : 1.0,
+	"stiffness" : 1e5,
+	"damping" : 1.0,
+	"density" : 10.0,
+	"objects" : [
+		{
+			"filename" : "input.ms"
+		}
+	]
+}

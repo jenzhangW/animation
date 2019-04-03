@@ -1,0 +1,10 @@
+{
+	"dt" : 0.001111112,
+	"total_time" : 5.0,
+	"density" : 1000.0,
+	"res" : [25, 25, 25],
+	"h" : 0.01,
+	"lc" : [-0.125, -0.125, -0.125],
+	"flipRatio" : 1.0,
+	"particles" : "particles.in"
+}

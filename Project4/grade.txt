@@ -1,0 +1,29 @@
+  +------------------------------------------------------+
+  |___    20            README comment or file           |
+  |       ___      2    Submitted a readme file          |
+  |       ___      4    Description of assignment        |
+  |       ___      3    Clean submission(no .o .d files) |
+  |       ___      3    Statement of help                |
+  |       ___      5    Code Comments                    |
+  |       ___      3    Regular commits and log entries  |
+  +------------------------------------------------------+
+  |___    20            Implementation                   |
+  |       ___     20    Compiles and executes w/o errors |
+  +------------------------------------------------------+
+  |___    20            Input/output                     |
+  |       ___     10    Parses all the input files       |
+  |       ___     10    Outputs valid .obj file          |
+  +------------------------------------------------------+
+  |___    65            Calculations                     |
+  |       ___      5    Gravity force     		 |
+  |       ___     25    Spring force    		 |
+  |       ___     25    Time integration		 |	
+  |       ___     15    Ground plane collision           |	
+  +------------------------------------------------------+
+  |___    130         	Extra Credit                     |
+  |       ___     30    Strain Limiting                  |
+  |       ___     50    Position-based Dynamics          |
+  |       ___     50    Clustered Shape Matching         |
+  +------------------------------------------------------+
+  |     Total     125                                    |
+  +------------------------------------------------------+

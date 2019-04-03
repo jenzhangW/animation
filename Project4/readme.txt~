@@ -1,0 +1,13 @@
+Name: Jenny Zhang
+Date: 11/6/17
+Email: jennyz1@umbc.edu
+
+Description: Creates an .obj of a cube like objects falling. Computers the movement through the length of springs and the force acting on the cube.
+
+Files Include:
+      springmass_skel.cpp
+      
+
+Input Files:
+      input.jason
+      input.ms
