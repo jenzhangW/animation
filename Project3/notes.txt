@@ -1,0 +1,8 @@
+V' = sum of (
+     	    Weight of v *
+     	    transformation matrix of active
+     	    (Transformation matrix of rest
+     	    (v rest - inboard rest))
+            *inboard active
+	    )
+

@@ -1,0 +1,66 @@
+traverse the hierachy
+find the end difectors
+use end difectors to compute jacobians
+
+take jacobians and find the inverse to find the change in the angle(theta).
+can't find the definite inverse, approximate the inverse by psuedo inverse.
+J(transpose)(g - e). J transpose of (g - e)
+Jtranspose = V sigma V transpose.
+
+change in angle = Jacobian transpose * change in position
+gicl.cs.drexel.edu/images/0/02/Kinematics.ppt
+
+to find the rotation axis whe using euler angles for degrees of freedom:
+   -to get the axis for y you need to rotate it with the x-axis
+  
+need to change one degree of freedom at a time:
+     -jacobian = number of constraints * number of degrees of freedoms. 
+     15 x 63 -> 63 x 15 ->
+     
+error: 10 to the minus 7 and 8,    
+
+steps:
+	-read files
+	-store joints and constraints
+	-turn joints and constraints into a jacobian (how to do that?)
+	      Note: The change in the offset 
+	-using the jacobian(psuedo inverse or transpose) multiply by the change		in the offset to find the change in the angle
+	-take each angle and change the axis
+		Note: changing the x will change the y.
+	
+Question:
+	1. Not understanding contraints correctly. Are these the position?
+	2. 
+
+Things Needed:
+       - Class of joints
+       - Vector of constraints
+       - Function to compute the jacobian
+        -
+
+
+Final Stuff:
+      Find world corrdine
+
+
+
+Notes 2:
+      -sum of the difference between the endeffector and goal < .00000001
+      -multiply the rotation matrix by the x axis of rotation (from wiki) then take the cross product of then with 
+
+
+Process:
+	-theta = 0
+	jacobians = 3 *numJoints x 3 * numconstraints
+	error = sum of difference
+
+	while (error > eqs) {
+	      recursive (outboard, in board)
+	      foreach (bone) {
+	      	      m = parent transform
+		      foreach (i < 3)
+		      la = outboard -inboard
+		      m-axis = col(i)	      
+		      m * 
+	      }
+	}
